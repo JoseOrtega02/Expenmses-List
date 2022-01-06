@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Expenses List</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<main>
+		<h1>Expenses</h1>
+		<div class="data">
+			<div class="div1">
+			<label for="name">Name:</label>
+			<input type="text" name="name" placeholder="name" id="name">
+			<label for="date">Date:</label>
+			<input type="date" name="date" id="date">
+			</div>
+			<div class="div2">
+			<label for="number">Amount:</label>
+			<input type="number" name="Amount" placeholder="$800" id="amount">
+			<input type="submit" name="" value="Done" id="submit">
+			</div>
+		</div>
+		<div class="expenses">
+			<table id="table">
+				<tbody>
+				<tr>
+					<th>Name</th>
+					<th>Date</th>
+					<th>Value</th>
+				</tr>
+				</tbody>
+			</table>
+			<div id="no-expenses">
+			<h4>no expenses</h4>
+			</div>
+		</div>
+	</main>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

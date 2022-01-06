@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+}
+
+
+html,body{
+	height: 100%;
+}
+
+body{
+	font-family: sans-serif;
+	background-color: white;
+	display: flex;
+	justify-content: center;	
+}
+
+/*data*/
+.data{
+	border-bottom: 2px solid green;
+
+}
+.data input{
+	margin-right: 30px;
+}
+
+.div1{
+	margin-bottom: 30px;
+}
+.div2{
+	margin-bottom: 30px;
+}
+#submit:hover{
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	transition: 0.3s linear;
+}
+
+/*expenses*/
+.expenses{
+	justify-content: space-around;
+}
+.expenses h4{
+	background-color: lightgrey;
+	font-style: italic;
+	line-height: 30px;
+	text-align: center;
+}
+table{
+	width: 100%;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+th{
+	border-bottom: 2px solid black;
+}
+td{
+	border-right: 2px solid black;
+	
+}
+.cancel{
+	width: 100%;
+}
+
+.cancel:hover{
+	cursor: pointer;
+	background-color: red;
+	transition: 0.3s linear;
+	color: white;
+}
+
+
+
+
+
+/*.expenses div{
+	display: inline-flex;
+	text-align: center;
+	width: 100%;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.cancel-section{
+	justify-content: center;
+	text-align: center;
+}
+.cancel-section button{
+	margin-top: 17%;
+	margin-bottom: auto;
+}*/
